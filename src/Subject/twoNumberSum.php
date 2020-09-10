@@ -1,7 +1,22 @@
 <?php
+/**
+ *两数之和
+ *
+ * @author      fzs
+ * @version     1.0 版本号
+ */
 namespace Algorithm\Subject;
+
 class twoNumberSum
 {
+    /**
+     * 两数之和算法
+     *
+     * @access public
+     * @param array $nums 整数数组
+     * @param int $target 目标值
+     * @return array
+     */
     public function achieve($nums, $target)
     {
         foreach ($nums as $k=> $v){
@@ -12,6 +27,13 @@ class twoNumberSum
         }
         return $result ?? [];
     }
+    /**
+     * thinking
+     * 两数之和算法思路
+     *
+     * @access public
+     * @return string
+     */
     public function thinking()
     {
         return <<<EOF
@@ -26,8 +48,5 @@ class twoNumberSum
 方法三：一遍哈希表
 事实证明，我们可以一次完成。在进行迭代并将元素插入到表中的同时，我们还会回过头来检查表中是否已经存在当前元素所对应的目标元素。如果它存在，那我们已经找到了对应解，并立即将其返回。
 EOF;
-    }
-    public function code(){
-        show_source("__FILE__",true);
     }
 }

@@ -10,16 +10,24 @@ class Algorithm
         $application = "\\Algorithm\\Subject\\{$name}";
         $this->Algorithm = new $application();
     }
+    /**
+     * 算法
+     *
+     * @access public
+     * @return mixed
+     */
     public function achieve()
     {
         return $this->Algorithm->achieve(...$this->data);
     }
+    /**
+     * 思路
+     *
+     * @access public
+     * @return array
+     */
     public function thinking()
     {
         return $this->Algorithm->thinking();
-    }
-    public function code()
-    {
-        return $this->Algorithm->code();
     }
 }
