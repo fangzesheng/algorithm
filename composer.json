@@ -1,0 +1,18 @@
+{
+    "name": "fangzesheng/algorithm",
+    "authors": [
+        {
+            "name": "fangzesheng",
+            "email": "810210908@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Algorithm\\": "src/"
+        }
+    }
+}
