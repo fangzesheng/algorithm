@@ -7,7 +7,7 @@
  */
 namespace Algorithm\Subject;
 
-class isValid
+class lengthOfLastWord
 {
     /**
      * 最后一个单词的长度算法
