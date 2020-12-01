@@ -21,7 +21,6 @@ class isSameTree
      */
     public function achieve($p, $q)
     {
-        $tree1 = $tree2 = new Tree();
         if(is_array($p) && $p){
             $tree1 = new Tree();
             foreach ($p as $v1){
