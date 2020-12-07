@@ -29,7 +29,7 @@ try {
     $upload = new Algorithm('twoNumberSum',[[1,3,4,56,34,5,2,6],8]);
     //achieve 算法实现函数
     print_r($upload->achieve());
-    //achieve 算法思路函数
+    //thinking 算法思路函数
     print_r($upload->thinking());
 } catch (Exception $e) {
     // 出错啦，处理下吧
@@ -88,6 +88,8 @@ try {
     * 给定两个二叉树，编写一个函数来检验它们是否相同。如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
 * 对称二叉树(isSymmetric)
     * 给定一个二叉树，检查它是否是镜像对称的。
+* 二叉树的最大深度(maxDepth)
+    * 给定一个二叉树，找出其最大深度。二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
 
 
 
